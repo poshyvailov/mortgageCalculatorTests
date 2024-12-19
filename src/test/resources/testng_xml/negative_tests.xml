@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Mortgage Calculator E2E Tests">
+    <test name="Interest rate Feature Tests">
+        <groups>
+            <run>
+                <include name="negativeTests"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.negativeTests"/>
+        </packages>
+    </test>
+</suite>
